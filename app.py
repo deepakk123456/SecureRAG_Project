@@ -13,7 +13,7 @@ from core.agents import MultiAgentOrchestrator
 load_dotenv()
 
 # FRESH GENERATED MASTER API KEY INTEGRATION
-MASTER_API_KEY = os.getenv("AQ.Ab8RN6KPtkeWr2LjZh63JxEILejteVdGfKFhoUQFh4Z4-n2QIQ")
+MASTER_API_KEY = os.getenv("GEMINI_API_KEY")
 # System View Configuration Metrics
 st.set_page_config(
     page_title="Enterprise Multi-Agent Secure RAG Kernel v4", 
